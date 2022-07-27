@@ -274,6 +274,7 @@ export function Reader({
                 injectedJavaScriptBeforeContentLoaded={injectedJS}
                 originWhitelist={['*']}
                 scrollEnabled={false}
+                textZoom={100}
                 mixedContentMode="compatibility"
                 onMessage={onMessage}
                 allowUniversalAccessFromFileURLs={true}
